@@ -81,8 +81,7 @@ tags is an attribute that contains all the data from the other tuples of the mov
 
 
 
-## 🎯Objective
-The main goal of the project is to create a movie recommender system that recommends movies based on their similarity to the movie entered by the user.
+
 ## ⬆️Results
 Below are two cases where different movies are provided as input-
 Case1:
