@@ -1,15 +1,6 @@
 
 # Movie Recommendation System using Machine Learning
 
-
-
-## Authors
-Nihal Monthri - 160122748042   
-Thirupati Rao - 160122748049   
-Parthiv       - 160122748039   
-Sai Teja      - 160122748056    
-
-
 ## 🎯Objective
 The main goal of the project is to create a movie recommender system that recommends movies based on their similarity to the movie entered by the user.
 ## 🛠️Techniques/Algorithms/Methods used in Project
@@ -116,3 +107,9 @@ As you can see from the above outputs, The movie recommender system is clearly f
 
 ## 🏁Conclusion
 Hence, We can say that the movie recommender system has been created successfully using machine learning. This algorithm can be used for other types of recommender systems as well such as shopping, music etc. This movie recommender system can be used to build a website that gives you movie recommendations based on your tastes. This was a very satisfying project to work on and also helped me learn a lot of different things in the fields of AI, Githib, Anaconda and so on. Such projects are very much worthwile.
+
+## Authors
+Nihal Monthri - 160122748042   
+Thirupati Rao - 160122748049   
+Parthiv       - 160122748039   
+Sai Teja      - 160122748056    
