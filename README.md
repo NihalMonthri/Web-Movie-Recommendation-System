@@ -106,7 +106,7 @@ Case2:
 ```
 As you can see from the above outputs, The movie recommender system is clearly functioning as intended, providing movies that are very or somewhat similar to the entered movie. This shows that the code has no bugs and is ready for use. You can give any other movie as input and it will provide required similar movies. You can check for accuracy of the program by indivdually comparing the cosine similarities of the movies.
 
-This is also implemented into steamlit via link https://web-movie-recommendation-system-tg5yvtovtsgauq2cbmvgjc.streamlit.app/
+This is also implemented into steamlit via link https://web-movie-recommendation-system.streamlit.app/
 ## 🏁Conclusion
 Hence, We can say that the movie recommender system has been created successfully using machine learning. This algorithm can be used for other types of recommender systems as well such as shopping, music etc. This movie recommender system can be used to build a website that gives you movie recommendations based on your tastes. This was a very satisfying project to work on and also helped me learn a lot of different things in the fields of AI, Githib, Anaconda and so on. Such projects are very much worthwile.
 ## Authors
