@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import ast
 import nltk
+import streamlit as st
+nltk.download('punkt')
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -61,7 +63,23 @@ def recommend(movie):
     movie_index= new_df[new_df['title']==movie].index[0]
     distances=similarity[movie_index]
     movies_list=sorted(list(enumerate(distances)), reverse=True, key=lambda x:x[1])[1:6]
+    recommended_movies = []
     for i in movies_list:
-        print(new_df.iloc[i[0]].title)
+        recommended_movies.append(new_df.iloc[i[0]].title)
+    return recommended_movies
    
 recommend("Avatar")
+
+#Streamlit UI
+st.title("Movie Recommendation System")
+st.write("Get movie recommendations based on content similarity")
+
+movie_list = new_df['title'].values
+selected_movie = st.selectbox("Choose a movie you like:", movie_list)
+
+if st.button("Recommend"):
+    recommendations = recommend(selected_movie)
+    st.subheader("Top 5 Recommended Movies:")
+    for m in recommendations:
+        st.write("-->", m)
+
